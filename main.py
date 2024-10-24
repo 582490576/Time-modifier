@@ -31,8 +31,6 @@ class MyApp(QtWidgets.QWidget, UiForm):
                 '%Y-%m-%d %H:%M:%S')
             self.label_5.setText(creation_time)
             self.label_6.setText(modification_time)
-            self.dateTimeEdit.setDateTime(creation_time)
-            self.dateTimeEdit_2.setDateTime(modification_time)
 
     def change(self):
         if self.file_path:
